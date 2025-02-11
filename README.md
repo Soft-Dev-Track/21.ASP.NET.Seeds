@@ -80,19 +80,24 @@ Save the script as seed_data.sql inside your project, e.g., in a `Database` or `
 
 ## 5. Find my database in Visual Studio?
 
-1. Go to  `View > Server Explorer`
-![](assets/001.png)
+### 1. Go to  `View > Server Explorer`
 
-2. Add a connection
-![](assets/002.png)
+<img src="assets/001.png" style="width:400px" alt="img"/>
+
+### 2. Add a connection
+<img src="assets/002.png" style="width:400px" alt="img"/>
 
 For the `Server name`, please enter **(LocalDb)\mssqllocaldb**. 
 
-3. Go to `View > SQL Server Object Explorer` and add a `SQL Server` 
-![](assets/003.png)
+### 3. Go to `View > SQL Server Object Explorer` and add a `SQL Server` 
+<img src="assets/003.png" style="width:400px" alt="img"/>
 
 - Choose `Local > MSSQLLocalDB`
 - Trust Server Certificate : true
 
-## 6. You're now ready
-![](assets/004.png)
+### 6. You're now ready
+<img src="assets/004.png" style="width:400px" alt="img"/>
+
+From there, you can now create your own `sql` queries
+
+<img src="assets/005.png" style="width:400px" alt="img"/>
